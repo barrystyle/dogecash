@@ -1,6 +1,6 @@
 DogeCash Core version *4.0.1* is now available from:  <https://github.com/dogecash/dogecash/releases>
 
-This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
+This is a new minor version release, including various bug fixes and GUI improvements.
 
 Please report bugs using the issue tracker at github: <https://github.com/dogecash/dogecash/issues>
 
