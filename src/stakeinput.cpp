@@ -234,6 +234,8 @@ bool CDOGECStake::GetModifier(uint64_t& nStakeModifier)
 {
     int nStakeModifierHeight = 0;
     int64_t nStakeModifierTime = 0;
+    uint256 pindexPriorTip = chainActive.Tip()->nHeight - 1;
+    uint256 hashBlockPrior = pindexPriorTip->GetBlockHash();
     GetIndexFrom();
     if (!pindexFrom)
         return error("%s: failed to get index from", __func__);
